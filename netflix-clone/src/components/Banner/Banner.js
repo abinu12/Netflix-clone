@@ -4,7 +4,7 @@ import requests from '../../utils/request';
 import "./Banner.css"
 const Banner = () => {
     const [movie,setMovie]=useState({})
-   
+   //kjkj
   useEffect(() => {
     (async () => {
       try {

@@ -1,7 +1,6 @@
-
-import React from 'react';
-import { FacebookOutlined, Instagram, YouTube } from '@mui/icons-material';
-import "./Footer.css"
+import React from "react";
+import { FacebookOutlined, Instagram, YouTube } from "@mui/icons-material";
+import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer_outer_container">
@@ -12,7 +11,7 @@ const Footer = () => {
           <Instagram />
           <YouTube />
         </div>
-
+        <div></div>
         {/* Footer Links */}
         <div className="footer_data">
           <div>
@@ -51,9 +50,7 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <div className="copy-write">
-          &copy; 1997-2024 Netflix, Inc.
-        </div>
+        <div className="copy-write">&copy; 1997-2024 Netflix, Inc.</div>
       </div>
     </div>
   );

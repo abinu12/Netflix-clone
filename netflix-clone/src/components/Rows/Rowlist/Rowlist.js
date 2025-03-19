@@ -6,9 +6,9 @@ const Rowlist = () => {
   return (
     <>
       <Row
-      title="NETFLIX ORGINALS"
+      title="NETFLIX ORIGINALS"
       fetchURL={requests.fetchNetflixOriginals}
-      isLargeRow={true}
+      // isLargeRow={true}
       />
       <Row
       title="Trending Now" fetchUrl={requests.fetchTrending} />
